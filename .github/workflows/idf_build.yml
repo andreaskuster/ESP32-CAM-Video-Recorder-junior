@@ -18,5 +18,4 @@ jobs:
       - name: build design
         run: |
           source ./esp-idf/export.sh
-          ls
           idf.py build
