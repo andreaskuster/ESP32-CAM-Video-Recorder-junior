@@ -9,7 +9,6 @@ fi
   git checkout 1d7068e4b
   git submodule update --init --recursive
   ./install.sh
-  . ./export.sh
 )
 
 echo "esp-idf installed"
@@ -31,4 +30,5 @@ fi
   )
 )
 echo "arduino-esp32 installed"
-
+# set env variables
+. ./esp-idf/export.sh
