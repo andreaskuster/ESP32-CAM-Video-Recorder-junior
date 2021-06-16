@@ -10,11 +10,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: 'recursive'
-      - name: install esp-idf
+      - name: install prequisites
         run: |
-          git clone --recursive https://github.com/espressif/esp-idf.git
-          cd esp-idf
-          ./install.sh
+          source ./install_espidf.sh
       - name: build design
         run: |
           source ./esp-idf/export.sh
