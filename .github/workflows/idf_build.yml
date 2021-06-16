@@ -1,0 +1,19 @@
+#
+# ESP-IDF Build Pipeline
+#
+name: idf_build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git submodule update --init --recursive
+      - name: install prequisites
+        run: |
+          source ./install_espidf.sh
+      - name: build design
+        run: |
+          source ./esp-idf/export.sh
+          idf.py build
