@@ -15,7 +15,6 @@ void init_connect_wifi(void) {
 
     nvs_flash_init();
 
-
     //WiFiManager
     //Local intialization. Once its business is done, there is no need to keep it around
     WiFiManager wifiManager;
