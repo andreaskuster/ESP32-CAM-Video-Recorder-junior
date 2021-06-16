@@ -1,3 +1,6 @@
 [submodule "components/WIFIMANAGER-ESP32"]
 	path = components/WIFIMANAGER-ESP32
 	url = https://github.com/andreaskuster/WIFIMANAGER-ESP32.git
+[submodule "components/arduino-esp32-1"]
+	path = components/arduino-esp32-1
+	url = https://github.com/andreaskuster/arduino-esp32-1.git
