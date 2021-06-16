@@ -1,5 +1,6 @@
 ##
 
+![master idf build pipeline status](https://github.com/andreaskuster/ESP32-WebCam/actions/workflows/idf_build.yml/badge.svg?branch=master)
 
 ## Troubleshooting
 
