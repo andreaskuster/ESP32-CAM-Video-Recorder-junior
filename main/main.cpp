@@ -1,13 +1,12 @@
 /*
  *
  */
-#include <stdio.h>
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#include "device_info.h"
+#include <device.h>
 #include "auto_connect.h"
 
 // catch compile time variables
