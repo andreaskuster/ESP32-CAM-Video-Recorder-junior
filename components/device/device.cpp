@@ -43,7 +43,7 @@ void report_device_info(void) {
     esp_chip_info(&chip_info);
 
     // report info
-    printf("ESP32 Chip Info");
+    printf("ESP32 Chip Info\n");
     printf("Target: %s\n", CONFIG_IDF_TARGET);
     printf("Model: %s, Revision: %d\n",
            ESP.getChipModel(),

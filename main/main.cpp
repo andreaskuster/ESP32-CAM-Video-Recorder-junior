@@ -7,7 +7,7 @@
 #include "driver/gpio.h"
 
 #include <device.h>
-#include "auto_connect.h"
+#include <auto_connect.h>
 
 // catch compile time variables
 #define BLINK_GPIO ((gpio_num_t)CONFIG_BLINK_GPIO)
@@ -20,24 +20,8 @@ extern "C" {
     void app_main(void);
 }
 
-//#include <WiFi.h>
-//#include <nvs_flash.h>
-//
-//const char* ssid = "ESP32-Access-Point";
-//const char* password = "123456789";
-
 void app_main(void) {
     printf("Hello world!\n");
-
-//    Serial.begin(115200);
-//    nvs_flash_init();
-
-//    WiFi.softAP(ssid, password);
-//
-//    Serial.println();
-//    Serial.print("IP address: ");
-//    Serial.println(WiFi.softAPIP());
-
 
     report_device_info();
 

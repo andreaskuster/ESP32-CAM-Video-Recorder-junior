@@ -1,5 +1,5 @@
 # idf component registration
-idf_component_register(SRCS "main.cpp" "auto_connect.cpp"
+idf_component_register(SRCS "main.cpp"
                        INCLUDE_DIRS ".")
 
 # add debug option
