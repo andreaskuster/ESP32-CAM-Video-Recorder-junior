@@ -28,7 +28,7 @@ Reference:
 - https://www.esp32.com/viewtopic.php?t=21378
 
 
-Problem:
+Problem WiFi Error 4353 (0x1101)
 ```
 [   192][E][WiFiGeneric.cpp:555] wifiLowLevelInit(): esp_wifi_init 4353
 [   199][E][WiFiAP.cpp:125] softAP(): enable AP first!
